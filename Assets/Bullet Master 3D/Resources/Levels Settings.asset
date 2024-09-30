@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dabfda0a5f63468086b192e49774eaf5, type: 3}
+  m_Name: Levels Settings
+  m_EditorClassIdentifier: 
+  Levels:
+  - Weapons:
+    - WeaponType: 0
+      CartridgesCount: 3
+    CartridgesUsedForThreeStars: 1
+    CartridgesUsedForTwoStars: 2
+    CartridgesUsedForOneStar: 3
+  - Weapons:
+    - WeaponType: 0
+      CartridgesCount: 4
+    CartridgesUsedForThreeStars: 2
+    CartridgesUsedForTwoStars: 3
+    CartridgesUsedForOneStar: 4
+  - Weapons:
+    - WeaponType: 0
+      CartridgesCount: 4
+    CartridgesUsedForThreeStars: 1
+    CartridgesUsedForTwoStars: 2
+    CartridgesUsedForOneStar: 3
+  - Weapons:
+    - WeaponType: 1
+      CartridgesCount: 4
+    CartridgesUsedForThreeStars: 2
+    CartridgesUsedForTwoStars: 3
+    CartridgesUsedForOneStar: 4
+  - Weapons:
+    - WeaponType: 2
+      CartridgesCount: 6
+    CartridgesUsedForThreeStars: 2
+    CartridgesUsedForTwoStars: 4
+    CartridgesUsedForOneStar: 6
+  - Weapons:
+    - WeaponType: 0
+      CartridgesCount: 4
+    CartridgesUsedForThreeStars: 1
+    CartridgesUsedForTwoStars: 2
+    CartridgesUsedForOneStar: 3
+  - Weapons:
+    - WeaponType: 1
+      CartridgesCount: 4
+    CartridgesUsedForThreeStars: 1
+    CartridgesUsedForTwoStars: 2
+    CartridgesUsedForOneStar: 3
+  - Weapons:
+    - WeaponType: 0
+      CartridgesCount: 6
+    CartridgesUsedForThreeStars: 4
+    CartridgesUsedForTwoStars: 5
+    CartridgesUsedForOneStar: 6
+  - Weapons:
+    - WeaponType: 0
+      CartridgesCount: 2
+    CartridgesUsedForThreeStars: 1
+    CartridgesUsedForTwoStars: 2
+    CartridgesUsedForOneStar: 3
+  - Weapons:
+    - WeaponType: 3
+      CartridgesCount: 3
+    CartridgesUsedForThreeStars: 1
+    CartridgesUsedForTwoStars: 2
+    CartridgesUsedForOneStar: 3
+  - Weapons:
+    - WeaponType: 0
+      CartridgesCount: 5
+    CartridgesUsedForThreeStars: 2
+    CartridgesUsedForTwoStars: 3
+    CartridgesUsedForOneStar: 4
+  - Weapons:
+    - WeaponType: 0
+      CartridgesCount: 6
+    CartridgesUsedForThreeStars: 3
+    CartridgesUsedForTwoStars: 4
+    CartridgesUsedForOneStar: 5
+  - Weapons:
+    - WeaponType: 3
+      CartridgesCount: 3
+    CartridgesUsedForThreeStars: 1
+    CartridgesUsedForTwoStars: 2
+    CartridgesUsedForOneStar: 3
+  - Weapons:
+    - WeaponType: 3
+      CartridgesCount: 5
+    CartridgesUsedForThreeStars: 3
+    CartridgesUsedForTwoStars: 4
+    CartridgesUsedForOneStar: 5
+  - Weapons:
+    - WeaponType: 0
+      CartridgesCount: 3
+    CartridgesUsedForThreeStars: 1
+    CartridgesUsedForTwoStars: 2
+    CartridgesUsedForOneStar: 3
+  - Weapons:
+    - WeaponType: 2
+      CartridgesCount: 6
+    CartridgesUsedForThreeStars: 2
+    CartridgesUsedForTwoStars: 4
+    CartridgesUsedForOneStar: 6
+  - Weapons:
+    - WeaponType: 0
+      CartridgesCount: 4
+    CartridgesUsedForThreeStars: 2
+    CartridgesUsedForTwoStars: 3
+    CartridgesUsedForOneStar: 4
+  - Weapons:
+    - WeaponType: 2
+      CartridgesCount: 8
+    CartridgesUsedForThreeStars: 4
+    CartridgesUsedForTwoStars: 6
+    CartridgesUsedForOneStar: 8
+  - Weapons:
+    - WeaponType: 3
+      CartridgesCount: 3
+    CartridgesUsedForThreeStars: 1
+    CartridgesUsedForTwoStars: 2
+    CartridgesUsedForOneStar: 3
+  - Weapons:
+    - WeaponType: 1
+      CartridgesCount: 4
+    CartridgesUsedForThreeStars: 1
+    CartridgesUsedForTwoStars: 2
+    CartridgesUsedForOneStar: 3
+  - Weapons:
+    - WeaponType: 0
+      CartridgesCount: 6
+    CartridgesUsedForThreeStars: 3
+    CartridgesUsedForTwoStars: 4
+    CartridgesUsedForOneStar: 5
+  - Weapons:
+    - WeaponType: 0
+      CartridgesCount: 1
+    - WeaponType: 1
+      CartridgesCount: 2
+    - WeaponType: 0
+      CartridgesCount: 1
+    CartridgesUsedForThreeStars: 2
+    CartridgesUsedForTwoStars: 3
+    CartridgesUsedForOneStar: 4

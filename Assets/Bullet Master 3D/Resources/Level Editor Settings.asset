@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7bc0cb9f31747b8b2783fd16864234c, type: 3}
+  m_Name: Level Editor Settings
+  m_EditorClassIdentifier: 
+  Preview: {fileID: 21300000, guid: 4947d6c8ffa4ec247805f312010107ef, type: 3}
+  DefaultSceneObjectsPrefabs:
+  - {fileID: 3534008825499657876, guid: 6dfa1d658dd1ca94cb6a25bc289606d9, type: 3}
+  - {fileID: 6836572905893379997, guid: 6ff943541465362459491eea11b031d4, type: 3}
+  DesignsPreviews:
+  - {fileID: 21300000, guid: 02bea5d4f15877f44b82d3691dbcd730, type: 3}
+  - {fileID: 21300000, guid: 75bd60d20bd4c9146945fcf724ca68d0, type: 3}
+  - {fileID: 21300000, guid: 6b6c99fda5039d044b2fd29d3ace8ee1, type: 3}
+  - {fileID: 21300000, guid: cee0d8a9fff99c444b2089fcf4fa8500, type: 3}
+  - {fileID: 21300000, guid: b40f63ab7b4bf2d469a8af28cd85c38e, type: 3}
+  - {fileID: 21300000, guid: 04119803cb3d6fb4781588b7cedd3acb, type: 3}
+  - {fileID: 21300000, guid: 7dafb15df18a5e7498d4ee667f0ce70e, type: 3}
+  - {fileID: 21300000, guid: 0ac42289b32b36e45a06e047b8bf0a3d, type: 3}
+  - {fileID: 21300000, guid: ca5ac86c9c97ec14daa5d3d98124beb9, type: 3}
+  - {fileID: 21300000, guid: 0e947b57353f7e240aea3b00175d3219, type: 3}
+  - {fileID: 21300000, guid: 67590ea14034ab74684e5557f103ef6d, type: 3}
+  - {fileID: 21300000, guid: 82a8aac360d83db45888857921bfc37b, type: 3}
+  DesignsPrefabs:
+  - Prefab: {fileID: 5052610301177044257, guid: 9db3ba25bf5f1954fbff1276d193d36d, type: 3}
+    DefaultLocalPosition: {x: 0, y: 3, z: -2}
+    DefaultLocalEulerAngles: {x: 0, y: 0, z: 0}
+    UsesDesignColor: 0
+  - Prefab: {fileID: 748613114076577715, guid: 2486dac6a4dbf7a4387b1b915ae391c0, type: 3}
+    DefaultLocalPosition: {x: 0, y: 3, z: -2}
+    DefaultLocalEulerAngles: {x: 0, y: 0, z: 0}
+    UsesDesignColor: 0
+  - Prefab: {fileID: 9207697024883883932, guid: cfabaac0cd549fd41ac01d8ebf92f4ff, type: 3}
+    DefaultLocalPosition: {x: 0, y: 3, z: -2}
+    DefaultLocalEulerAngles: {x: 0, y: 0, z: 0}
+    UsesDesignColor: 0
+  - Prefab: {fileID: 5591428620394968017, guid: dbb7b99af4f658349a37a055d0bc7b7c, type: 3}
+    DefaultLocalPosition: {x: 0, y: 3, z: -2}
+    DefaultLocalEulerAngles: {x: 0, y: 0, z: 0}
+    UsesDesignColor: 0
+  - Prefab: {fileID: 5591428620394968017, guid: 77d9d11d32661a54581be45a10ead6e2, type: 3}
+    DefaultLocalPosition: {x: 0, y: 3, z: -2}
+    DefaultLocalEulerAngles: {x: 0, y: 0, z: 0}
+    UsesDesignColor: 0
+  - Prefab: {fileID: 5591428620394968017, guid: ee58abc70b16ed740af43c79ee0e98f6, type: 3}
+    DefaultLocalPosition: {x: 0, y: 3, z: -2}
+    DefaultLocalEulerAngles: {x: 0, y: 0, z: 0}
+    UsesDesignColor: 0
+  - Prefab: {fileID: 5591428620394968017, guid: bdfcd819c6be0ac4fbf7aed50981c9fd, type: 3}
+    DefaultLocalPosition: {x: 0, y: 3, z: -2}
+    DefaultLocalEulerAngles: {x: 0, y: 0, z: 0}
+    UsesDesignColor: 0
+  - Prefab: {fileID: 5591428620394968017, guid: 2e3de96dffe235b49aaf8f6698da5875, type: 3}
+    DefaultLocalPosition: {x: 0, y: 3, z: -2}
+    DefaultLocalEulerAngles: {x: 0, y: 0, z: 0}
+    UsesDesignColor: 0
+  - Prefab: {fileID: 5591428620394968017, guid: fddcefc3b0addb742bd032c8a9fdbeca, type: 3}
+    DefaultLocalPosition: {x: 0, y: 3, z: -2}
+    DefaultLocalEulerAngles: {x: 0, y: 0, z: 0}
+    UsesDesignColor: 0
+  - Prefab: {fileID: 5591428620394968017, guid: d73b518048f2e9242842e9ee08d10838, type: 3}
+    DefaultLocalPosition: {x: 0, y: 3, z: -2}
+    DefaultLocalEulerAngles: {x: 0, y: 0, z: 0}
+    UsesDesignColor: 0
+  - Prefab: {fileID: 5591428620394968017, guid: f9d216b819c93504c9a8ac1274cf59c7, type: 3}
+    DefaultLocalPosition: {x: 0, y: 0, z: 0}
+    DefaultLocalEulerAngles: {x: 0, y: 0, z: 0}
+    UsesDesignColor: 0
+  - Prefab: {fileID: 5591428620394968017, guid: ad4578aaf7b22be49a58e339d8f447de, type: 3}
+    DefaultLocalPosition: {x: 0, y: 0, z: 0}
+    DefaultLocalEulerAngles: {x: 0, y: 0, z: 0}
+    UsesDesignColor: 0
+  DesignsMaterials:
+  - {fileID: 2100000, guid: ec1c654df7ffd8844b48788ba7eba625, type: 2}
+  - {fileID: 2100000, guid: cbaad3dcc478782478ec9f46fc3fc939, type: 2}
+  - {fileID: 2100000, guid: cc833399d9a603040a91508261e21963, type: 2}
+  - {fileID: 2100000, guid: a6510755f28ed654492bbe4bc3eacb3c, type: 2}
+  - {fileID: 2100000, guid: ae97c1cbf5935f5468ee94d228342d27, type: 2}
+  - {fileID: 2100000, guid: 58f24231263fa2d4eb7ebe7fbe026559, type: 2}
+  - {fileID: 2100000, guid: 5ab04b3496624ac4abf4a01ec5a4b45d, type: 2}
+  - {fileID: 2100000, guid: 7f6fbfc77ee40bb449892512954b8ec6, type: 2}
+  EnvironmentObjectsPrefabs:
+  - Prefab: {fileID: 7223062330031756164, guid: 813c31fac9e46e34cb02d70d4bad6234, type: 3}
+    DefaultLocalPosition: {x: 0, y: 0, z: 0}
+    DefaultLocalEulerAngles: {x: 0, y: 180, z: 0}
+    UsesDesignColor: 0
+  - Prefab: {fileID: 5143257028587032022, guid: 55c69e9968240d341a95046772750cf5, type: 3}
+    DefaultLocalPosition: {x: 0, y: 0, z: 0}
+    DefaultLocalEulerAngles: {x: 0, y: 180, z: 0}
+    UsesDesignColor: 0
+  - Prefab: {fileID: 4771138132411647060, guid: 7e2651da17ec8a24eb54dd221117829a, type: 3}
+    DefaultLocalPosition: {x: 0, y: 0, z: 0}
+    DefaultLocalEulerAngles: {x: 0, y: 180, z: 0}
+    UsesDesignColor: 0
+  - Prefab: {fileID: 6812509252410914564, guid: c0528e3ce883e4d43ad1734b869bd014, type: 3}
+    DefaultLocalPosition: {x: 0, y: 0, z: 0}
+    DefaultLocalEulerAngles: {x: 0, y: 180, z: 0}
+    UsesDesignColor: 0
+  - Prefab: {fileID: 2385437455910599834, guid: a3b3817558559444db205d3913b41b8e, type: 3}
+    DefaultLocalPosition: {x: 0, y: 0, z: 0}
+    DefaultLocalEulerAngles: {x: 0, y: 180, z: 0}
+    UsesDesignColor: 0
+  - Prefab: {fileID: 5757014845042359514, guid: 984a9c18eaccf654982bc7658247539c, type: 3}
+    DefaultLocalPosition: {x: 0, y: 0, z: 0}
+    DefaultLocalEulerAngles: {x: 0, y: 180, z: 0}
+    UsesDesignColor: 0
+  - Prefab: {fileID: 1658214619928087068, guid: fb89273344d12634abd7dc7b95ff046c, type: 3}
+    DefaultLocalPosition: {x: 0, y: 3.25, z: 0}
+    DefaultLocalEulerAngles: {x: 0, y: 0, z: 0}
+    UsesDesignColor: 1
+  - Prefab: {fileID: 1658214619928087068, guid: cf23ee749ad232e41b14d2d467a81117, type: 3}
+    DefaultLocalPosition: {x: 0, y: 3.25, z: 0}
+    DefaultLocalEulerAngles: {x: 0, y: 0, z: 0}
+    UsesDesignColor: 1
+  - Prefab: {fileID: 6572250311818491319, guid: 43e835f90f270764dbf553bc702e7d41, type: 3}
+    DefaultLocalPosition: {x: 0, y: 1, z: 0}
+    DefaultLocalEulerAngles: {x: 0, y: 0, z: 0}
+    UsesDesignColor: 0

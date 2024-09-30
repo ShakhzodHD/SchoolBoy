@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 031014459db24bf3ab8bb9583d41f8ff, type: 3}
+  m_Name: Game Settings
+  m_EditorClassIdentifier: 
+  PlayerPrefab: {fileID: 15802024830135377, guid: c80db15bd237eba46a8ac3f2ad1275ee, type: 3}
+  WeaponsPrefabs:
+  - {fileID: 9212590224179476276, guid: eb5e35d812d85ca49996c521c3e375c4, type: 3}
+  - {fileID: 5325006842271996186, guid: 610f72c213198c64ebf9c8b432c3a0e5, type: 3}
+  - {fileID: 2560393014915039941, guid: 41013d7153720154a9f13454ae3e1495, type: 3}
+  - {fileID: 6971541290852301506, guid: 7594eda55aee5be489d3355a6d43fe72, type: 3}
+  PistolShootSound: {fileID: 8300000, guid: d1d250e11b33b424bb46d7ffe0a42ec4, type: 3}
+  ShotgunShootSound: {fileID: 8300000, guid: 7fb273899608b424aa302dcfae35c713, type: 3}
+  MachineGunShootSound: {fileID: 8300000, guid: bcb910a261c9a274abfe9fcdc3d2210e, type: 3}
+  GrenadeLauncherShootSound: {fileID: 8300000, guid: 3b28c6bd68f73c848a5123a2f123127e, type: 3}
+  StickmanDiedSound: {fileID: 8300000, guid: 36e3889cefba4cd4cae79257dac65455, type: 3}

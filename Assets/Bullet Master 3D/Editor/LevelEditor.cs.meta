@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f3765444a1c847f08cffd39cfeec4902
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - MainPrefab: {fileID: 3534008825499657876, guid: 6dfa1d658dd1ca94cb6a25bc289606d9,
+      type: 3}
+  - PlayerObjectsPrefab: {fileID: 6836572905893379997, guid: 6ff943541465362459491eea11b031d4,
+      type: 3}
+  - LevelPrefab: {fileID: 8286093039667063172, guid: 26b7ddf246005f24aa863b5feb76a1d7,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
