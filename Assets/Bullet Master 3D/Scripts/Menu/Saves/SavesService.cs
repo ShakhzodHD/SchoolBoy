@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -44,39 +43,54 @@ namespace Bullet_Master_3D.Scripts.Menu
         /// </summary>
         public static JsonData LoadData()
         {
-            if (File.Exists(_path))
+            if (PlayerPrefs.HasKey("LevelId"))
             {
-                var json = File.ReadAllText(_path);
-                LoadedData = JsonUtility.FromJson<JsonData>(json);
+                LoadedData = new JsonData();
+                LoadedData.LevelId = PlayerPrefs.GetInt("LevelId");
+                LoadedData.Levels = new List<JsonData.Level>();
+
+                // Загружаем данные для каждого уровня
+                for (var i = 0; i < SceneManager.sceneCountInBuildSettings - 1; i++)
+                {
+                    var level = new JsonData.Level
+                    {
+                        Unlocked = PlayerPrefs.GetInt($"Level_{i}_Unlocked", (i == 0 ? 1 : 0)) == 1, // Разблокирован ли уровень (по умолчанию - первый уровень)
+                        StarsCount = PlayerPrefs.GetInt($"Level_{i}_StarsCount", 0) // Количество звезд для уровня
+                    };
+                    LoadedData.Levels.Add(level);
+                }
+
+                LoadedData.Vibration = PlayerPrefs.GetInt("Vibration", 1) == 1; // Включение/выключение вибрации
+                LoadedData.Sounds = PlayerPrefs.GetInt("Sounds", 1) == 1; // Включение/выключение звуков
             }
             else
             {
-                LoadedData = new JsonData();
-                SaveData();
+                LoadedData = new JsonData(); // Создаем новые данные
+                SaveData(); // Сохраняем их в PlayerPrefs
             }
             return LoadedData;
         }
-        
+
         /// <summary>
         /// Increase level id and if that's last level reset saves
         /// </summary>
-        public static void IncreaseLevelId(int currentLevelId, int starsCount) 
+        public static void IncreaseLevelId(int currentLevelId, int starsCount)
         {
-            LoadedData.Levels[LoadedData.LevelId - 1].StarsCount = starsCount;
+            LoadedData.Levels[LoadedData.LevelId - 1].StarsCount = starsCount; // Сохраняем звезды для текущего уровня
             if (currentLevelId == LoadedData.LevelId)
             {
-                LoadedData.LevelId++;
+                LoadedData.LevelId++; // Переходим на следующий уровень
             }
             if (LoadedData.LevelId > LoadedData.Levels.Count)
             {
-                //When all levels complete, we rewrites saves to default
+                // Если все уровни пройдены, сбрасываем данные
                 LoadedData = new JsonData();
             }
             else
             {
-                LoadedData.Levels[LoadedData.LevelId - 1].Unlocked = true;
+                LoadedData.Levels[LoadedData.LevelId - 1].Unlocked = true; // Разблокируем следующий уровень
             }
-            SaveData();
+            SaveData(); // Сохраняем изменения
         }
 
         /// <summary>
@@ -84,8 +98,19 @@ namespace Bullet_Master_3D.Scripts.Menu
         /// </summary>
         public static void SaveData()
         {
-            var json = JsonUtility.ToJson(LoadedData);
-            File.WriteAllText(_path, json);
+            PlayerPrefs.SetInt("LevelId", LoadedData.LevelId); // Сохраняем ID уровня
+
+            // Сохраняем данные для каждого уровня
+            for (var i = 0; i < LoadedData.Levels.Count; i++)
+            {
+                PlayerPrefs.SetInt($"Level_{i}_Unlocked", LoadedData.Levels[i].Unlocked ? 1 : 0);
+                PlayerPrefs.SetInt($"Level_{i}_StarsCount", LoadedData.Levels[i].StarsCount);
+            }
+
+            PlayerPrefs.SetInt("Vibration", LoadedData.Vibration ? 1 : 0); // Сохраняем состояние вибрации
+            PlayerPrefs.SetInt("Sounds", LoadedData.Sounds ? 1 : 0); // Сохраняем состояние звуков
+
+            PlayerPrefs.Save(); // Сохраняем изменения
         }
 
         /// <summary>
@@ -93,7 +118,7 @@ namespace Bullet_Master_3D.Scripts.Menu
         /// </summary>
         public static void DeleteData()
         {
-            File.Delete(_path);
+            PlayerPrefs.DeleteAll(); // Удаляем все данные из PlayerPrefs
         }
     }
 }

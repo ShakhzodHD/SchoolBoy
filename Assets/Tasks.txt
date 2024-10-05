@@ -1,12 +1,21 @@
 // add theme music
 // change dead sound
 // add animation player winning
-/// add animation player lose
+// add animation player lose
 // change model bomb
 // change explosion sound
-change UI
-change all graphics
-add save/load YG
+// change UI
+// change all graphics
 // add winning sound
 // add lose sound
-add mixer and fixed
+// add mixer and fixed
+// add localization MENU
+// add localization stickmans
+// add ads YG
+// add interline
+// add reward
+// add switch lang
+
+up graphics (make shaders)
+delete fuction faded player avatars after win/lose
+Shader "Unlit/Stylized"

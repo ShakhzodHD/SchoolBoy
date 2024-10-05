@@ -51,6 +51,7 @@ public class SoundManager : MonoBehaviour
         // Возвращаем громкость фоновой музыки
         audioSourceMusic.volume = originalMusicVolume;
     }
+
     public void StopSFX()
     {
         audioSourceSFX.Stop();

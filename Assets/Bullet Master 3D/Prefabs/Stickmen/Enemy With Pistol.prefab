@@ -1925,7 +1925,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3643,6 +3643,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5488574754879592300}
     m_Modifications:
+    - target: {fileID: 7783237131430455557, guid: 4ab02a0533a35fb41bb5e904aadca9d1, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7783237131430455559, guid: 4ab02a0533a35fb41bb5e904aadca9d1, type: 3}
       propertyPath: _followTarget
       value: 
@@ -3740,6 +3744,10 @@ PrefabInstance:
       value: Shooter
       objectReference: {fileID: 0}
     - target: {fileID: 7783237133224524259, guid: 4ab02a0533a35fb41bb5e904aadca9d1, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 0d5e5c6ea91e33b4093ea75c491aa02c, type: 2}
+    - target: {fileID: 7783237133224524259, guid: 4ab02a0533a35fb41bb5e904aadca9d1, type: 3}
       propertyPath: m_fontColor.b
       value: 0.4117647
       objectReference: {fileID: 0}
@@ -3748,14 +3756,89 @@ PrefabInstance:
       value: 0.4117647
       objectReference: {fileID: 0}
     - target: {fileID: 7783237133224524259, guid: 4ab02a0533a35fb41bb5e904aadca9d1, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 5739176709126115509, guid: 0d5e5c6ea91e33b4093ea75c491aa02c, type: 2}
+    - target: {fileID: 7783237133224524259, guid: 4ab02a0533a35fb41bb5e904aadca9d1, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4285098495
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7783237133224524257, guid: 4ab02a0533a35fb41bb5e904aadca9d1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1388760248563163504}
   m_SourcePrefab: {fileID: 100100000, guid: 4ab02a0533a35fb41bb5e904aadca9d1, type: 3}
+--- !u!114 &1667422421415033341 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7783237133224524259, guid: 4ab02a0533a35fb41bb5e904aadca9d1, type: 3}
+  m_PrefabInstance: {fileID: 8872165160539439134}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667422421415033343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1667422421415033343 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7783237133224524257, guid: 4ab02a0533a35fb41bb5e904aadca9d1, type: 3}
+  m_PrefabInstance: {fileID: 8872165160539439134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1388760248563163504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667422421415033343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 1667422421415033341}
+  uniqueFontTMP: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  textLComponent: {fileID: 0}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u0421\u0442\u0440\u0435\u043B\u043E\u043A"
+  en: Shooter
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 
+  componentTextField: 0
+  countLang: 0
 --- !u!224 &1667422422691096837 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7783237131430455579, guid: 4ab02a0533a35fb41bb5e904aadca9d1, type: 3}

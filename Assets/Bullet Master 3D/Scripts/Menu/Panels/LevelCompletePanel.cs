@@ -1,4 +1,5 @@
-﻿using Bullet_Master_3D.Scripts.Singleton;
+﻿using Bullet_Master_3D.Scripts.Game;
+using Bullet_Master_3D.Scripts.Singleton;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -26,6 +27,7 @@ namespace Bullet_Master_3D.Scripts.Menu
             _confetti.SetActive(true);
             //Show earned stars
             _starsBar.ShowStars(Boostrap.Instance.GameManager.StarsCount);
+
             Boostrap.Instance.GameEvents.OnLevelComplete?.Invoke();
 
             InitPlayerWin.Instance.ActivePlayerAvatars();

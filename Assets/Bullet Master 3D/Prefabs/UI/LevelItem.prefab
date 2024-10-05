@@ -53,7 +53,7 @@ MonoBehaviour:
   _text: {fileID: 5873159776969395568}
   _open: {fileID: 5873159776543373632}
   _unlockedLevel: {fileID: 21300000, guid: 257a0ae4cf5e74e49ac279f6b12fe4ea, type: 3}
-  _lockedLevel: {fileID: 21300000, guid: c7679846e9a17074ea50cee70feffca8, type: 3}
+  _lockedLevel: {fileID: 21300000, guid: 4af386a4388317a4e92108a5c480365f, type: 3}
   _starsBar: {fileID: 2920764463553761778}
 --- !u!1 &5873159776543373634
 GameObject:
@@ -368,14 +368,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.8235294, b: 0.28627452, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8b3870df721fa0c4785c53bb37177da4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5179d67cff9bbf6448340a69ccc83bdf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -443,14 +443,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.8235294, b: 0.28627452, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8b3870df721fa0c4785c53bb37177da4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5179d67cff9bbf6448340a69ccc83bdf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -518,14 +518,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.8235294, b: 0.28627452, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8b3870df721fa0c4785c53bb37177da4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5179d67cff9bbf6448340a69ccc83bdf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
